@@ -9,5 +9,14 @@ public class HowOldRU {
 		String age=scan.nextLine();
 		System.out.println("난"+age+"살이야~");
 		int num = Integer.parseInt(age);
+			if(num<=10) {
+				System.out.println("어린이");
+			}else if(num<=20) {
+				System.out.println("청소년");
+			}else if(num<=40) {
+				System.out.println("청년");
+			}else {
+				System.out.println("꼰대");
+			}
 	}
 }
