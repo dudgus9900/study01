@@ -58,7 +58,7 @@ for(int i=0;strList.size();i++) {
 System.out.println("김문수는"+strList.indexOf("김문수")+"번째에 있어요~");    List에서도 순서 찾는건 똑같다(다만, 없는 데이터값을 찾을경우는 -1이 나온다.
 }	*/
 
-/* Wrap Class
+/* Wraper Class
 	int-Integer
 	long-Long
 	
