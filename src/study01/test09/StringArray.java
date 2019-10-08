@@ -31,11 +31,13 @@ public class StringArray {
 	System.out.println(numList);
 	}	
 }
-//list는 순서 X
-//list는 유동적으로 길이를 조절할 수 있다.
-//ArrayList<여기에는 정해져있는 DataType못들어간다!>
-//list는 to String하면 값이 나옵니다.
-//배열이 속도는 더빠르나, 편하고 요즘은 속도차이가 신경쓰일만큼 느리지도않다.
+/*List는 순서 X
+list는 유동적으로 길이를 조절할 수 있다.
+ArrayList<여기에는 정해져있는 DataType못들어간다!>
+list는 to String하면 값이 나옵니다.
+배열이 속도는 더빠르나, 편하고 요즘은 속도차이가 신경쓰일만큼 느리지도않다.
+length같은 Property는없으나 Method가존재 ex)size()
+*/
 
 
 /*String[]strs=new String[0];
