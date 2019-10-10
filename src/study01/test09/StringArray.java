@@ -31,7 +31,7 @@ public class StringArray {
 	System.out.println(numList);
 	}	
 }
-/*List는 순서 X
+/*List는 순서있다. 구성원에 대한 데이터타입만 중요해서 add만 해주면 된다.
 list는 유동적으로 길이를 조절할 수 있다.
 ArrayList<여기에는 정해져있는 DataType못들어간다!>
 list는 to String하면 값이 나옵니다.

@@ -1,6 +1,6 @@
 package study01.test10;
 //instance of = 나 이거 ~라고 불러도되?
-class FF{
+class FF{//얘는 2개의 이름으로 불릴수 있다. Object , Father
 	
 }
 public class FinalTestP extends FF {
@@ -17,8 +17,9 @@ public class FinalTestP extends FF {
 		
 		
 		ff=new FF();
+		if(ff instanceof FinalTestP)
+			ft= (FinalTestP) ff;   
 		
-		ft= (FinalTestP) ff;        
 		System.out.println(ft instanceof FinalTestP);
 		
 	}

@@ -12,7 +12,7 @@ public class ExceptionTset {
 		
 		}catch(Exception e) {					//parseInt에 마우스를 갖다대보면 class가 exception으로 뜬다. - exception은 무조건 exception class
 			System.out.println("장난치냐?");
-			System.out.println(strNum+"sms 숫자가 아닙니다.");
+			System.out.println(strNum+"는 숫자가 아닙니다.");
 		
 		}finally {
 			System.out.println("난 무조건 실행됨");//얘는 catch에 잡히든 안잡히든 무조건 실행됨

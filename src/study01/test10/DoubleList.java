@@ -6,7 +6,7 @@ import java.util.Random;
 public class DoubleList {
 
 	public static void main(String[]args) {
-		ArrayList<String> strList=new ArrayList<String>();  // 지금 표준어는 뒤의 ArrayList<> - String을 생략한다.(연습할떄는 있이 하자!)
+		ArrayList<String> strList=new ArrayList<String>();  // 지금 표준어는 new ArrayList<> - String을 생략한다.(연습할떄는 있이 하자!)
 		ArrayList<Double> doubleList=new ArrayList<Double>();
 		Random r=new Random();
 		for(int i=0;i<10;i++) {
