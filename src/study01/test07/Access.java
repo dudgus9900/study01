@@ -18,6 +18,7 @@ public class Access {
 	public static void main(String[]args) {
 		Cat1 c=new Cat1();
 		c.setAge(5);
+		System.out.println(c.getAge());
 	}
 }
 

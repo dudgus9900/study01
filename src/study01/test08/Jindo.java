@@ -10,9 +10,12 @@ class Dog extends Animal{
 }
 
 public class Jindo extends Dog{
-
+	public void test() {
+		System.out.println("난 Jindo의 테스트 Method야!");}
 	public static void main(String[]args) {
 		Dog jindo=new Jindo();
 		jindo.test();
+		//public void test() {
+			//System.out.println("난 Jindo의 테스트 Method야!");
+		}
 	}
-}

@@ -31,11 +31,13 @@ public class StringArray {
 	System.out.println(numList);
 	}	
 }
-//list는 순서 X
-//list는 유동적으로 길이를 조절할 수 있다.
-//ArrayList<여기에는 정해져있는 DataType못들어간다!>
-//list는 to String하면 값이 나옵니다.
-//배열이 속도는 더빠르나, 편하고 요즘은 속도차이가 신경쓰일만큼 느리지도않다.
+/*List는 순서있다. 구성원에 대한 데이터타입만 중요해서 add만 해주면 된다.
+list는 유동적으로 길이를 조절할 수 있다.
+ArrayList<여기에는 정해져있는 DataType말고는 못들어간다!>
+list는 to String하면 값이 나옵니다.
+배열이 속도는 더빠르나, 편하고 요즘은 속도차이가 신경쓰일만큼 느리지도않다.
+length같은 Property는없으나 Method가존재 ex)size()
+*/
 
 
 /*String[]strs=new String[0];
@@ -54,7 +56,7 @@ strList.add("임꺽정");
 strList.add("이문수");
 strList.add("김문수");
 System.out.println("==우리반 출석부==");
-for(int i=0;strList.size();i++) {
+for(int i=0;i<strList.size();i++) {
 System.out.println("김문수는"+strList.indexOf("김문수")+"번째에 있어요~");    List에서도 순서 찾는건 똑같다(다만, 없는 데이터값을 찾을경우는 -1이 나온다.
 }	*/
 

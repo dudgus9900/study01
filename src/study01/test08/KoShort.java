@@ -7,7 +7,7 @@ class Cat{
 }
 public class KoShort extends Cat{
 	public void sleep() {
-		System.out.println("코숏 고양이가 잡니다.");
+		System.out.println("코숏 고양이가 잡니다.");//overriding
 	}
 	public static void main(String[]args) {
 		Cat ks =new KoShort();

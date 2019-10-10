@@ -11,6 +11,6 @@ public class ObjectTest {
 		ObjectTest objectTest=new ObjectTest();
 		System.out.println(objectTest.age);
 		System.out.println(objectTest.name);
-		
+		System.out.println(objectTest.getStr());
 	}
 }
