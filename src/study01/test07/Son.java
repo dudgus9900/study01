@@ -8,13 +8,12 @@ class Mother{
 
 public class Son extends Mother {
 
-	public void cook() {
-		System.out.println("라면먹을래 걍");
+	public void cook(){
+		 System.out.println("라면먹을래 걍");
 	}
 
 	public static void main(String[]args) {
-		Son s=new Son();
-		s.cook();
-		s.cook();
+		
+		
 	}
 }
