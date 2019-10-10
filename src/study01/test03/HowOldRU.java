@@ -5,18 +5,18 @@ import java.util.Scanner;
 public class HowOldRU {
 	public static void main(String[]args) {
 		Scanner scan=new Scanner(System.in);
-		System.out.println("³Ê ¸î»ìÀÌ¾ß?");
+		System.out.println("ë‚˜ì´ê°€ ì–´ë–»ê²Œ ë˜ì„¸ìš”?");
 		String age=scan.nextLine();
-		System.out.println("³­"+age+"»ìÀÌ¾ß~");
+		System.out.println("ì €ëŠ”"+age+"ì‚´ì…ë‹ˆë‹¤.");
 		int num = Integer.parseInt(age);
 			if(num<=10) {
-				System.out.println("¾î¸°ÀÌ");
+				System.out.println("ï¿½î¸°ï¿½ï¿½");
 			}else if(num<=20) {
-				System.out.println("Ã»¼Ò³â");
+				System.out.println("Ã»ï¿½Ò³ï¿½");
 			}else if(num<=40) {
-				System.out.println("Ã»³â");
+				System.out.println("Ã»ï¿½ï¿½");
 			}else {
-				System.out.println("²Á´ë");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½");
 			}
 	}
 }

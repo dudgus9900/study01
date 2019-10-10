@@ -14,4 +14,5 @@ public class Compare {
 		boolean isSame=num1==num2;
 		
 	}
+	
 }
