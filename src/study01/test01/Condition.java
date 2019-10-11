@@ -6,20 +6,20 @@ public class Condition {
 		int num=2;
 		
 		if(num==2)	{
-			System.out.println("1ÀÌ ¸Â³×¿ä");			
+			System.out.println("1ì´ ì•„ë‹ˆë„¤ìš”");			
 		}else if(num==2) {
-			System.out.println("2°¡ ¸Â³×¿ä");
+			System.out.println("2ê°€ë§ë„¤ìš”");
 		}else {
-			System.out.println("1µµ 2µµ ¾Æ´Ï³×¿ä");
+			System.out.println("1ë„ 2ë„ ì•„ë‹ˆë„¤ìš”.");
 		}
 		
-		System.out.println("¿Ï·á!");
+		System.out.println("num");
 		
-		String trans="³²ÀÚ";
-			if(trans=="³²ÀÚ") {
-				System.out.println("³²ÀÚÀÔ´Ï´Ù.");
+		String trans="ï¿½ï¿½ï¿½ï¿½";
+			if(trans=="ï¿½ï¿½ï¿½ï¿½") {
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.");
 			}else {
-				System.out.println("¿©ÀÚÀÔ´Ï´Ù.");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.");
 			}
 		}
 }

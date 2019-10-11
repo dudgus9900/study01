@@ -29,7 +29,9 @@ public class Execute {
 	
 		public static void main(String[]args) {
 		Calc calc=new Calc(4,2);
-		
+		calc.add();
+		calc.minus();
+		calc.multiple();
 		calc.division();
 		
 		}

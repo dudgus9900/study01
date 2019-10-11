@@ -1,5 +1,5 @@
 package study01.test11;
-//MapList와 ArrayList를 이용해보자!
+//MapList와 ArrayList를 이용해보자!	List와Map은 Collection뭐시기다.
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

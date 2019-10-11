@@ -10,7 +10,7 @@ public class DataType {
 		double doubleNum=1;
 		System.out.println(doubleNum);
 		
-		String str="¾È³çÇÏ¼¼¿ä";
+		String str="ì•ˆë…•í•˜ì„¸ìš”.";
 		boolean bl=true;
 		bl=false;
 		

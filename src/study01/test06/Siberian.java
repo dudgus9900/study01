@@ -11,6 +11,8 @@ public class Siberian extends Dog{
 	public static void main(String[]args) {
 		Siberian sibe = new Siberian();
 		System.out.println(sibe.name);
+		/*System.out.println(sibe.age);  age가 default여서 안된다.*/
+		
 		
 	}
 }

@@ -11,5 +11,6 @@ public class MethodTest2 {
 	public static void main(String[]args) {
 		test();
 		int a=getNum();
+		System.out.println(a);
 	}
 }

@@ -9,10 +9,10 @@ public class ArrayTest {
 		for(int i=1;i<strs.length;i++) {
 			
 			strs[i]=(i+1)*10+"";
+			System.out.println(strs[i]);
 		}
+	}	
+}
+
 		
-		for(int i=1;i<strs.length;i++) {
-		System.out.println(strs[i]);
-		}
-		}
-	}
+	

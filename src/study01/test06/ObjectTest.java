@@ -13,5 +13,5 @@ public class ObjectTest {
 		ot=new ObjectTest();
 		System.out.println(ot.num1);
 		System.out.println(ot.num2);
-	}//재미썽~~!! 오케이오케이!!
+	}
 }

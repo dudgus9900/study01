@@ -1,7 +1,7 @@
 package study01.test06;
 
 public class MethodTest2 {
-	int num;
+	int num=1;
 	
 	int getNum() {
 		System.out.println(num);
