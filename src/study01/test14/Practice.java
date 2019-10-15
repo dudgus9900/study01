@@ -23,3 +23,4 @@ public class Practice {
 		}
 	}
 }
+//http://ojk.kr/study/computer/linux/feature.htm
