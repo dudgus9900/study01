@@ -13,5 +13,5 @@ public class PadTest {
 	}
 }
 /*Debuging
-	실행ctrl+shift+d+j
+	실행arlt+shift+d+j
 	다음F6 나감F8	*/

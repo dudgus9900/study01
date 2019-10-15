@@ -1,5 +1,5 @@
 package study01.test13;
-//List를 사용하지 않은 배열의 한계
+//ArrayList를 사용하지 않고 배열만으로 List처럼 활용하기
 public class ListTest {
 
 	private String[] strs;	//String배열 선언
