@@ -23,4 +23,4 @@ public class Practice {
 		}
 	}
 }
-//http://ojk.kr/study/computer/linux/feature.htm
+//VO는 만들때 빡쏀데, 만들고 나서는 데이터 검증을 안해도된다.
